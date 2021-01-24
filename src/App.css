@@ -1,0 +1,26 @@
+body {
+  position: relative;
+  background-image: url(./Images/bg.svg);
+  background-position: right 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100%;
+} 
+
+.truck {
+  position: absolute;
+  width: 45%;
+  height: 45%;
+  bottom: -52%;
+  background-image: url(./Images/truck.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .truck {
+    bottom: -20%;
+  }
+}
