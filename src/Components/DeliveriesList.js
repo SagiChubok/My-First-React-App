@@ -4,15 +4,15 @@ import List from '@material-ui/core/List';
 
 const useStyles = makeStyles( (theme) => ({
     deliveryList: {
-      height: 650,
+      height: 550,
       width: '100%',
-      maxWidth: 700,
+      maxWidth: 680,
       overflow: 'auto',
       borderRadius: 10,
       backgroundColor: '#FFFFFF',
       [theme.breakpoints.down('md')]: {
         width: 500,
-        height: 300
+        height: 250
       },
     }
   }));

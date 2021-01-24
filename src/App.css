@@ -11,16 +11,17 @@ body {
   position: absolute;
   width: 45%;
   height: 45%;
-  bottom: -52%;
+  top: 115%;
   background-image: url(./Images/truck.svg);
   background-position: left;
   background-repeat: no-repeat;
   background-size: auto;
   background-size: 100%;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 1300px) {
   .truck {
-    bottom: -20%;
+    top: 70%;
   }
 }
